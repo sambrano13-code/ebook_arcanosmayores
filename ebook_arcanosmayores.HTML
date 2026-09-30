@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lectura de Arcanos Mayores - Tarot con Romi</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 0;
+    }
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      color: #2e1d40;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f3fb;
+    }
+    /* Estilo de cada página del E-book */
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      padding: 25mm 20mm;
+      margin: 10px auto;
+      box-sizing: border-box;
+      background: white url('https://i.imgur.com/vH1Z8sR.png') repeat center center; /* Fondo místico con transparencia */
+      background-size: cover;
+      position: relative;
+      page-break-after: always;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    
+    /* Contenedor traslúcido para legibilidad perfecta sobre la imagen de fondo */
+    .content-box {
+      background-color: rgba(255, 255, 255, 0.90);
+      padding: 30px;
+      border-radius: 12px;
+      border: 1px solid #dcd0ea;
+      min-height: 240mm;
+    }
+
+    /* Portada */
+    .cover-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 240mm;
+      background-color: rgba(255, 255, 255, 0.85);
+      border: 2px solid #8e52a8;
+      border-radius: 15px;
+      padding: 20px;
+    }
+    .cover-title {
+      font-size: 2.8rem;
+      color: #4a2e63;
+      letter-spacing: 2px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
+    .cover-subtitle {
+      font-size: 1.4rem;
+      color: #6b3e8a;
+      margin-bottom: 40px;
+      font-style: italic;
+    }
+    .cover-author {
+      font-size: 2rem;
+      color: #3b1d52;
+      font-weight: bold;
+      margin-top: 50px;
+    }
+
+    /* Estilos de encabezados y textos */
+    h1, h2 { color: #4a2e63; border-bottom: 2px solid #8e52a8; padding-bottom: 8px; }
+    h3 { color: #6b3e8a; margin-top: 20px; }
+    p, li { font-size: 1.05rem; line-height: 1.6; }
+    ul { padding-left: 20px; }
+
+    /* Cuadro especial para la Meditación */
+    .box-meditation {
+      background-color: #f3e9f9;
+      padding: 20px;
+      border-left: 5px solid #8e52a8;
+      border-radius: 4px;
+      margin-top: 25px;
+      font-style: italic;
+    }
+    
+    .card-placeholder {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .card-placeholder img {
+      max-width: 220px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- PÁGINA 1: PORTADA -->
+  <div class="page">
+    <div class="cover-box">
+      <div style="font-size: 3rem; color: #8e52a8; margin-bottom: 20px;">✧ 🔮 ✧</div>
+      <h1 class="cover-title">Lectura de Arcanos Mayores</h1>
+      <p class="cover-subtitle">Guía Profunda de Simbología, Arquetipos y Prácticas Espirituales</p>
+      <div style="width: 80px; height: 2px; background-color: #8e52a8; margin: 20px 0;"></div>
+      <p class="cover-author">Tarot con Romi</p>
+    </div>
+  </div>
+
+  <!-- PÁGINA 2: INTRODUCCIÓN E HISTORIA -->
+  <div class="page">
+    <div class="content-box">
+      <h2>1. ¿Qué es el Tarot?</h2>
+      <p>El Tarot es un sistema sagrado de cartomancia y un lenguaje simbólico compuesto por 78 cartas. Lejos de ser un simple método de adivinación, funciona como un espejo del inconsciente y un libro de sabiduría arquetípica que refleja el viaje del alma humana.</p>
+
+      <h2>2. Origen e Historia</h2>
+      <p>El Tarot nació en el norte de Italia a mediados del siglo XV (hacia 1430-1450) bajo el nombre de <em>Trionfi</em> (Triunfos). Originalmente, fue creado como un juego de cartas para la nobleza renacentista y las familias adineradas como los Visconti-Sforza.</p>
+
+      <h2>3. ¿Quiénes lo usaban antes y para qué?</h2>
+      <ul>
+        <li><strong>Siglos XV – XVII (Cortes italianas):</strong> Se usaba como juego social, entretenimiento cortesano y alegoría poética sobre los valores de la época.</li>
+        <li><strong>Siglo XVIII (Ocultismo Francés):</strong> Eruditos como Antoine Court de Gébelin y Éliphas Lévi redescubrieron las cartas y argumentaron que escondían secretos del Antiguo Egipto, la Cábala y la Alquimia.</li>
+        <li><strong>Siglo XX (Psicología de Carl Jung):</strong> El psicoanálisis adoptó el Tarot como una herramienta proyectiva para explorar los <strong>arquetipos del inconsciente colectivo</strong>, permitiendo al consultante comprender su psique y sus procesos emocionales.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PÁGINA 3: ARCANO 0 - EL LOCO -->
+  <div class="page">
+    <div class="content-box">
+      <h2>0. El Loco (The Fool)</h2>
+      
+      <div class="card-placeholder">
+        <!-- Reemplaza '0_el_loco.jpg' por la ruta de tu imagen -->
+        <img src="0_el_loco.jpg" alt="Carta El Loco - Rider Waite">
+      </div>
+
+      <h3>Información Arquetípica y Relaciones</h3>
+      <ul>
+        <li><strong>Arquetipo:</strong> El Inocente, el Aventurero, la Chispa Divina.</li>
+        <li><strong>Elemento / Astrología:</strong> Aire / Urano.</li>
+        <li><strong>Símbolos clave:</strong> El perro (lealtad/instinto), el precipicio (el salto de fe), la rosa blanca (pureza).</li>
+      </ul>
+
+      <h3>Significado al Derecho</h3>
+      <p>Nuevos comienzos, fe absoluta en el universo, libertad interior, entusiasmo inocente y la valentía de tomar un riesgo sin miedo al resultado.</p>
+
+      <h3>Significado al Revés</h3>
+      <p>Imprudencia, ingenuidad destructiva, irresponsabilidad, miedo a dar el salto o estancamiento por aferrarse a la seguridad.</p>
+
+      <h3>Prácticas Espirituales y Rituales</h3>
+      <p>Lleva esta carta contigo cuando necesites iniciar un proyecto desde cero o liberar bloqueos del pasado. Realiza una caminata consciente en la naturaleza dejando ir el control mental.</p>
+
+      <div class="box-meditation">
+        <strong>Mensaje de Meditación:</strong><br>
+        "Confío plenamente en el viaje. Doy el salto hacia lo desconocido sabiendo que el universo siempre sostiene mis pasos."
+      </div>
+    </div>
+  </div>
+
+  <!-- PÁGINA 4: ARCANO I - EL MAGO -->
+  <div class="page">
+    <div class="content-box">
+      <h2>I. El Mago (The Magician)</h2>
+      
+      <div class="card-placeholder">
+        <img src="1_el_mago.jpg" alt="Carta El Mago - Rider Waite">
+      </div>
+
+      <h3>Información Arquetípica y Relaciones</h3>
+      <ul>
+        <li><strong>Arquetipo:</strong> El Alquimista, el Creador, el Canal Divino.</li>
+        <li><strong>Elemento / Astrología:</strong> Aire / Mercurio.</li>
+        <li><strong>Símbolos clave:</strong> El leminiscata ($\infty$, poder infinito), la vara al cielo (conexión espiritual), los cuatro elementos sobre la mesa.</li>
+      </ul>
+
+      <h3>Significado al Derecho</h3>
+      <p>Poder de manifestación, enfoque, habilidad, diplomacia y contar con todas las herramientas necesarias para materializar tus metas.</p>
+
+      <h3>Significado al Revés</h3>
+      <p>Manipulación, talentos no aprovechados, falta de concentración, promesas falsas o deshonestidad.</p>
+
+      <h3>Prácticas Espirituales y Rituales</h3>
+      <p>Enciende una vela blanca y organiza tus herramientas de trabajo o cristales sobre tu altar. Medita decretando en voz alta tus intenciones de manifestación.</p>
+
+      <div class="box-meditation">
+        <strong>Mensaje de Meditación:</strong><br>
+        "Como es arriba, es abajo. Poseo la fuerza y los recursos necesarios para moldear mi propia realidad."
+      </div>
+    </div>
+  </div>
+
+  <!-- PUEDES DUPLICAR LA ESTRUCTURA ANTERIOR PARA CADA UNO DE LOS 22 ARCANOS MAYORES -->
+
+</body>
+</html>
